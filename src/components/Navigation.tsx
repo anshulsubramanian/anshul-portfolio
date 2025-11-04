@@ -26,7 +26,7 @@ const Navigation = () => {
             Contact
           </Link>
           <a 
-            href="/November_2025_Anshul_Subramanian_Resume.pdf"
+            href="/anshul-portfolio/November_2025_Anshul_Subramanian_Resume.pdf"
             download
             className="px-6 py-3 bg-secondary text-secondary-foreground rounded-lg text-sm font-semibold hover:bg-secondary/90 transition-all uppercase tracking-wider"
           >
