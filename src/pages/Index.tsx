@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import Navigation from "@/components/Navigation";
 import ProjectSection from "@/components/ProjectSection";
 import InProgressCard from "@/components/InProgressCard";
@@ -170,12 +171,12 @@ const Index = () => {
             Specializing in computer vision and deep learning.
           </p>
           <div className="flex gap-4">
-            <a 
-              href="/contact" 
+            <Link 
+              to="/contact" 
               className="px-8 py-4 bg-secondary text-secondary-foreground rounded-lg font-semibold hover:bg-secondary/90 transition-all shadow-medium hover:shadow-large"
             >
               Get In Touch
-            </a>
+            </Link>
             <a 
               href="#projects" 
               className="px-8 py-4 bg-card text-foreground border border-border rounded-lg font-semibold hover:border-secondary/50 transition-all"
