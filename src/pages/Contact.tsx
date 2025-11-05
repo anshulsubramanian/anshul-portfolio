@@ -18,7 +18,7 @@ const Contact = () => {
     {
       icon: BriefcaseIcon,
       label: "Naukri",
-      value: "View my Naukri Profile",
+      value: "naukri.com/mnjuser/profile",
       href: "https://www.naukri.com/mnjuser/profile"
     }
   ];
