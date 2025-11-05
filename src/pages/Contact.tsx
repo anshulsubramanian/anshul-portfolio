@@ -1,5 +1,5 @@
 import Navigation from "@/components/Navigation";
-import { Mail, Linkedin } from "lucide-react";
+import { Mail, Linkedin, BriefcaseIcon } from "lucide-react";
 
 const Contact = () => {
   const contactInfo = [
@@ -14,6 +14,12 @@ const Contact = () => {
       label: "LinkedIn",
       value: "linkedin.com/in/anshul-subramanian",
       href: "https://www.linkedin.com/in/anshul-subramanian/"
+    },
+    {
+      icon: BriefcaseIcon,
+      label: "Naukri",
+      value: "View my Naukri Profile",
+      href: "https://www.naukri.com/mnjuser/profile"
     }
   ];
 
