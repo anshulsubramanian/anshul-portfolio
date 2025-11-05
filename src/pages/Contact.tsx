@@ -41,12 +41,12 @@ const Contact = () => {
                 href={item.href}
                 target={item.label === "LinkedIn" ? "_blank" : undefined}
                 rel={item.label === "LinkedIn" ? "noopener noreferrer" : undefined}
-                className="flex items-start gap-6 p-8 bg-card border border-border rounded-xl hover:border-secondary/30 transition-all group"
+                className="flex items-start gap-6 p-8 bg-card border border-border rounded-xl hover:border-secondary/30 transition-all group break-words"
               >
                 <div className="w-12 h-12 rounded-full bg-secondary/10 flex items-center justify-center flex-shrink-0 group-hover:bg-secondary transition-colors">
                   <Icon className="w-6 h-6 text-secondary group-hover:text-secondary-foreground transition-colors" />
                 </div>
-                <div>
+                <div className="min-w-0">
                   <h3 className="text-sm font-medium text-muted-foreground mb-2 uppercase tracking-wider">{item.label}</h3>
                   <p className="text-lg text-foreground group-hover:text-secondary transition-colors">{item.value}</p>
                 </div>

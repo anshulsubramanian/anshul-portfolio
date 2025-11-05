@@ -163,7 +163,7 @@ const Index = () => {
           <p className="text-sm uppercase tracking-wider text-white/80 mb-8 font-medium">
             AI/ML ENGINEER
           </p>
-          <h1 className="text-6xl md:text-8xl font-bold mb-8 text-white leading-tight">
+          <h1 className="text-4xl sm:text-6xl md:text-8xl font-bold mb-8 text-white leading-tight break-words">
             Anshul Subramanian
           </h1>
           <p className="text-xl md:text-2xl text-white/90 leading-relaxed max-w-3xl mb-12">
